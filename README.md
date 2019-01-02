@@ -3,3 +3,4 @@
 2.地图
 3.报表
 4.百度 Echarts
+5.ArcGIS JS 
