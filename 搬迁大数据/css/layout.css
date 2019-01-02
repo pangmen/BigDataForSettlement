@@ -1,0 +1,54 @@
+/*头部的div*/
+#header {
+  text-align:center;
+  text-align:-webkit-center;
+}
+#btnDiv{
+  width: 950px;
+  height:34px;
+
+}
+#btnDiv div{
+  background-repeat: no-repeat;
+  padding:0;
+  width: 188px;
+  height: 34px;
+  float: left;
+  line-height: 34px;
+  color: antiquewhite
+}
+#distributionOfHouseholds {
+  background-image: url("../images/fun0.png");/*相对于CSS文件的位置*/
+}
+#distributionOfSettlements {
+  background-image: url("../images/fun0.png");/*相对于CSS文件的位置*/
+}
+
+#distributionOfHouseholds:hover,#distributionOfSettlements:hover{
+  background-image:url("../images/fun1.png");
+}
+
+#distributionOfIndustrial {
+  background-image: url("../images/fun2.png");/*相对于CSS文件的位置*/
+}
+#distributionOfIndustrial:hover{
+  background-image: url("../images/fun3.png")
+}
+
+#demoProject {
+  background-image: url("../images/fun4.png");/*相对于CSS文件的位置*/
+}
+#bigData {
+  background-image: url("../images/fun4.png");/*相对于CSS文件的位置*/
+}
+#bigData:hover,#demoProject:hover{
+  background:url("../images/fun5.png");
+}
+
+/*内容的div*/
+#container{
+  margin-right: 20px;
+  height: 90%;
+  border: 1px solid #0d71a2;
+}
+
